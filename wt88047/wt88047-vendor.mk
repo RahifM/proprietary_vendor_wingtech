@@ -53,6 +53,19 @@ PRODUCT_COPY_FILES += \
     vendor/wingtech/wt88047/proprietary/lib/libOmxVdecHevc.so:system/lib/libOmxVdecHevc.so \
     vendor/wingtech/wt88047/proprietary/lib/libwcnss_qmi.so:system/lib/libwcnss_qmi.so \
     vendor/wingtech/wt88047/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
+    vendor/wingtech/wt88047/proprietary/vendor/lib/egl/eglsubAndroid.so:system/vendor/lib/egl/eglsubAndroid.so \
+    vendor/wingtech/wt88047/proprietary/vendor/lib/egl/eglSubDriverAndroid.so:system/vendor/lib/egl/eglSubDriverAndroid.so \
+    vendor/wingtech/wt88047/proprietary/vendor/lib/egl/libEGL_adreno.so:system/vendor/lib/egl/libEGL_adreno.so \
+    vendor/wingtech/wt88047/proprietary/vendor/lib/egl/libESXEGL_adreno.so:system/vendor/lib/egl/libESXEGL_adreno.so \
+    vendor/wingtech/wt88047/proprietary/vendor/lib/egl/libESXGLESv1_CM_adreno.so:system/vendor/lib/egl/libESXGLESv1_CM_adreno.so \
+    vendor/wingtech/wt88047/proprietary/vendor/lib/egl/libESXGLESv2_adreno.so:system/vendor/lib/egl/libESXGLESv2_adreno.so \
+    vendor/wingtech/wt88047/proprietary/vendor/lib/egl/libGLESv1_CM_adreno.so:system/vendor/lib/egl/libGLESv1_CM_adreno.so \
+    vendor/wingtech/wt88047/proprietary/vendor/lib/egl/libGLESv2_adreno.so:system/vendor/lib/egl/libGLESv2_adreno.so \
+    vendor/wingtech/wt88047/proprietary/vendor/lib/egl/libq3dtools_adreno.so:system/vendor/lib/egl/libq3dtools_adreno.so \
+    vendor/wingtech/wt88047/proprietary/vendor/lib/egl/libQTapGLES.so:system/vendor/lib/egl/libQTapGLES.so \
+    vendor/wingtech/wt88047/proprietary/vendor/lib/egl/libRBEGL_adreno.so:system/vendor/lib/egl/libRBEGL_adreno.so \
+    vendor/wingtech/wt88047/proprietary/vendor/lib/egl/libRBGLESv1_CM_adreno.so:system/vendor/lib/egl/libRBGLESv1_CM_adreno.so \
+    vendor/wingtech/wt88047/proprietary/vendor/lib/egl/libRBGLESv2_adreno.so:system/vendor/lib/egl/libRBGLESv2_adreno.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/egl/eglsubAndroid.so:system/vendor/lib/egl/eglsubAndroid.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/egl/libEGL_adreno.so:system/vendor/lib/egl/libEGL_adreno.so \
@@ -95,6 +108,7 @@ PRODUCT_COPY_FILES += \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libbtnv.so:system/vendor/lib/libbtnv.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libC2D2.so:system/vendor/lib/libC2D2.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libc2d30-a3xx.so:system/vendor/lib/libc2d30-a3xx.so \
+    vendor/wingtech/wt88047/proprietary/vendor/lib/libCB.so:system/vendor/lib/libCB.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libcalmodule_akm.so:system/vendor/lib/libcalmodule_akm.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libcalmodule_gyroscope.so:system/vendor/lib/libcalmodule_gyroscope.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libcalmodule_yamaha.so:system/vendor/lib/libcalmodule_yamaha.so \
@@ -150,6 +164,7 @@ PRODUCT_COPY_FILES += \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libjpegdhw.so:system/vendor/lib/libjpegdhw.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libjpegehw.so:system/vendor/lib/libjpegehw.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/liblbs_core.so:system/vendor/lib/liblbs_core.so \
+    vendor/wingtech/wt88047/proprietary/vendor/lib/libllvm-glnext.so:system/vendor/lib/libllvm-glnext.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libllvm-qcom.so:system/vendor/lib/libllvm-qcom.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/liblqe.so:system/vendor/lib/liblqe.so \
     vendor/wingtech/wt88047/proprietary/lib/libmdmdetect.so:system/lib/libmdmdetect.so \
@@ -220,6 +235,7 @@ PRODUCT_COPY_FILES += \
     vendor/wingtech/wt88047/proprietary/vendor/lib/librs_adreno.so:system/vendor/lib/librs_adreno.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libRSDriver_adreno.so:system/vendor/lib/libRSDriver_adreno.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libsc-a3xx.so:system/vendor/lib/libsc-a3xx.so \
+    vendor/wingtech/wt88047/proprietary/vendor/lib/libscale.so:system/vendor/lib/libscale.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libSHIMDivxDrm.so:system/vendor/lib/libSHIMDivxDrm.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libsmemlog.so:system/vendor/lib/libsmemlog.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libssd.so:system/vendor/lib/libssd.so \
