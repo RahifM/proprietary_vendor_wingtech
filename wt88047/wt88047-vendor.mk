@@ -26,7 +26,6 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_COPY_FILES += \
     vendor/wingtech/wt88047/proprietary/vendor/bin/adsprpcd:system/vendor/bin/adsprpcd \
-    vendor/wingtech/wt88047/proprietary/vendor/bin/btnvtool:system/vendor/bin/btnvtool \
     vendor/wingtech/wt88047/proprietary/vendor/bin/imscmservice:system/vendor/bin/imscmservice \
     vendor/wingtech/wt88047/proprietary/vendor/bin/imsdatadaemon:system/vendor/bin/imsdatadaemon \
     vendor/wingtech/wt88047/proprietary/vendor/bin/imsqmidaemon:system/vendor/bin/imsqmidaemon \
