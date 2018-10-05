@@ -51,7 +51,6 @@ PRODUCT_COPY_FILES += \
     vendor/wingtech/wt88047/proprietary/vendor/etc/permissions/qti_permissions.xml:vendor/etc/permissions/qti_permissions.xml \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libwcnss_qmi.so:vendor/lib/libwcnss_qmi.so \
     vendor/wingtech/wt88047/proprietary/vendor/bin/perfd:vendor/bin/perfd \
-    vendor/wingtech/wt88047/proprietary/vendor/bin/thermal-engine:vendor/bin/thermal-engine \
     vendor/wingtech/wt88047/proprietary/vendor/lib/com.quicinc.cne.api@1.0.so:vendor/lib/com.quicinc.cne.api@1.0.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/com.quicinc.cne.constants@1.0.so:vendor/lib/com.quicinc.cne.constants@1.0.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/egl/eglsubAndroid.so:vendor/lib/egl/eglsubAndroid.so \
@@ -248,8 +247,6 @@ PRODUCT_COPY_FILES += \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libssd.so:vendor/lib/libssd.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libstlport.so:vendor/lib/libstlport.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libsystem_health_mon.so:vendor/lib/libsystem_health_mon.so \
-    vendor/wingtech/wt88047/proprietary/vendor/lib/libthermalclient.so:vendor/lib/libthermalclient.so \
-    vendor/wingtech/wt88047/proprietary/vendor/lib/libthermalioctl.so:vendor/lib/libthermalioctl.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libvoice-svc.so:vendor/lib/libvoice-svc.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libxml.so:vendor/lib/libxml.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:vendor/lib/mediadrm/libwvdrmengine.so \
