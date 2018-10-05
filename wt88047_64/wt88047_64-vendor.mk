@@ -383,11 +383,11 @@ PRODUCT_COPY_FILES += \
 
 
 # Thermal - from crackling
-PRODUCT_COPY_FILES += \
-    vendor/wingtech64/wt88047_64/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
-    vendor/wingtech64/wt88047_64/proprietary/vendor/lib64/libthermalclient.so:system/vendor/lib64/libthermalclient.so \
-    vendor/wingtech64/wt88047_64/proprietary/vendor/lib64/libthermalioctl.so:system/vendor/lib64/libthermalioctl.so \
-    vendor/wingtech64/wt88047_64/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so
+#PRODUCT_COPY_FILES += \
+#    vendor/wingtech64/wt88047_64/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
+#    vendor/wingtech64/wt88047_64/proprietary/vendor/lib64/libthermalclient.so:system/vendor/lib64/libthermalclient.so \
+#    vendor/wingtech64/wt88047_64/proprietary/vendor/lib64/libthermalioctl.so:system/vendor/lib64/libthermalioctl.so \
+#    vendor/wingtech64/wt88047_64/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so
 
 
 # Time services - from crackling
