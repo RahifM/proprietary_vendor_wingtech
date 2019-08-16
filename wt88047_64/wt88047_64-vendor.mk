@@ -418,4 +418,8 @@ PRODUCT_PACKAGES += \
     qcrilhook \
     libmm-abl
 
-
+# Dirac
+PRODUCT_COPY_FILES += \
+    vendor/wingtech64/wt88047_64/proprietary/vendor/lib/libDiracAPI_SHARED.so:$(TARGET_COPY_OUT_VENDOR)/lib/libDiracAPI_SHARED.so \
+    vendor/wingtech64/wt88047_64/proprietary/vendor/lib/soundfx/libdirac.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libdirac.so \
+    vendor/wingtech64/wt88047_64/proprietary/vendor/etc/diracmobile.config:$(TARGET_COPY_OUT_VENDOR)/etc/diracmobile.config
