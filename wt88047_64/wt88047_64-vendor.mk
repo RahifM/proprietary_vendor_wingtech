@@ -367,6 +367,41 @@ PRODUCT_COPY_FILES += \
     vendor/wingtech64/wt88047_64/proprietary/vendor/lib/libmdmdetect.so:system/vendor/lib/libmdmdetect.so
 
 
+# Radio - IMS
+PRODUCT_COPY_FILES += \
+    vendor/wingtech64/wt88047_64/proprietary/vendor/etc/permissions/ims.xml:system/vendor/etc/permissions/ims.xml \
+    vendor/wingtech64/wt88047_64/proprietary/vendor/etc/permissions/imscm.xml:system/vendor/etc/permissions/imscm.xml \
+    vendor/wingtech64/wt88047_64/proprietary/vendor/etc/permissions/qti_permissions.xml:system/vendor/etc/permissions/qti_permissions.xml
+
+PRODUCT_COPY_FILES += \
+    vendor/wingtech64/wt88047_64/proprietary/vendor/bin/imscmservice:system/vendor/bin/imscmservice \
+    vendor/wingtech64/wt88047_64/proprietary/vendor/bin/imsdatadaemon:system/vendor/bin/imsdatadaemon \
+    vendor/wingtech64/wt88047_64/proprietary/vendor/bin/imsqmidaemon:system/vendor/bin/imsqmidaemon \
+    vendor/wingtech64/wt88047_64/proprietary/vendor/bin/ims_rtp_daemon:system/vendor/bin/ims_rtp_daemon \
+    vendor/wingtech64/wt88047_64/proprietary/vendor/lib64/lib-dplmedia.so:system/vendor/lib64/lib-dplmedia.so \
+    vendor/wingtech64/wt88047_64/proprietary/vendor/lib64/libimscamera_jni.so:system/vendor/lib64/libimscamera_jni.so \
+    vendor/wingtech64/wt88047_64/proprietary/vendor/lib64/lib-imscamera.so:system/vendor/lib64/lib-imscamera.so \
+    vendor/wingtech64/wt88047_64/proprietary/vendor/lib64/lib-imsdpl.so:system/vendor/lib64/lib-imsdpl.so \
+    vendor/wingtech64/wt88047_64/proprietary/vendor/lib64/libimsmedia_jni.so:system/vendor/lib64/libimsmedia_jni.so \
+    vendor/wingtech64/wt88047_64/proprietary/vendor/lib64/lib-imsqimf.so:system/vendor/lib64/lib-imsqimf.so \
+    vendor/wingtech64/wt88047_64/proprietary/vendor/lib64/lib-imsrcscmclient.so:system/vendor/lib64/lib-imsrcscmclient.so \
+    vendor/wingtech64/wt88047_64/proprietary/vendor/lib64/lib-imsrcscmservice.so:system/vendor/lib64/lib-imsrcscmservice.so \
+    vendor/wingtech64/wt88047_64/proprietary/vendor/lib64/lib-imsrcscm.so:system/vendor/lib64/lib-imsrcscm.so \
+    vendor/wingtech64/wt88047_64/proprietary/vendor/lib64/lib-imsrcs.so:system/vendor/lib64/lib-imsrcs.so \
+    vendor/wingtech64/wt88047_64/proprietary/vendor/lib64/lib-imsSDP.so:system/vendor/lib64/lib-imsSDP.so \
+    vendor/wingtech64/wt88047_64/proprietary/vendor/lib64/lib-imss.so:system/vendor/lib64/lib-imss.so \
+    vendor/wingtech64/wt88047_64/proprietary/vendor/lib64/lib-imsvt.so:system/vendor/lib64/lib-imsvt.so \
+    vendor/wingtech64/wt88047_64/proprietary/vendor/lib64/lib-imsxml.so:system/vendor/lib64/lib-imsxml.so \
+    vendor/wingtech64/wt88047_64/proprietary/vendor/lib64/lib-rcsimssjni.so:system/vendor/lib64/lib-rcsimssjni.so \
+    vendor/wingtech64/wt88047_64/proprietary/vendor/lib64/lib-rcsjni.so:system/vendor/lib64/lib-rcsjni.so \
+    vendor/wingtech64/wt88047_64/proprietary/vendor/lib64/lib-rtpcommon.so:system/vendor/lib64/lib-rtpcommon.so \
+    vendor/wingtech64/wt88047_64/proprietary/vendor/lib64/lib-rtpcore.so:system/vendor/lib64/lib-rtpcore.so \
+    vendor/wingtech64/wt88047_64/proprietary/vendor/lib64/lib-rtpdaemoninterface.so:system/vendor/lib64/lib-rtpdaemoninterface.so \
+    vendor/wingtech64/wt88047_64/proprietary/vendor/lib64/lib-rtpsl.so:system/vendor/lib64/lib-rtpsl.so \
+    vendor/wingtech64/wt88047_64/proprietary/vendor/lib64/libvcel.so:system/vendor/lib64/libvcel.so \
+    vendor/wingtech64/wt88047_64/proprietary/vendor/lib64/libvoice-svc.so:system/vendor/lib64/libvoice-svc.so
+
+
 # Sensors - from ido
 PRODUCT_COPY_FILES += \
     vendor/wingtech64/wt88047_64/proprietary/vendor/lib/libcalmodule_akm.so:system/vendor/lib/libcalmodule_akm.so \
@@ -417,6 +452,11 @@ PRODUCT_PACKAGES += \
     qcnvitems \
     qcrilhook \
     libmm-abl
+
+PRODUCT_PACKAGES += \
+    ims \
+    imssettings \
+    imscmlibrary
 
 # Dirac
 PRODUCT_COPY_FILES += \
