@@ -422,13 +422,6 @@ PRODUCT_COPY_FILES += \
     vendor/wingtech64/wt88047_64/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so
 
 
-# Time services - from crackling
-PRODUCT_COPY_FILES += \
-    vendor/wingtech64/wt88047_64/proprietary/vendor/bin/time_daemon:system/vendor/bin/time_daemon \
-    vendor/wingtech64/wt88047_64/proprietary/vendor/lib64/libTimeService.so:system/vendor/lib64/libTimeService.so \
-    vendor/wingtech64/wt88047_64/proprietary/vendor/lib/libTimeService.so:system/vendor/lib/libTimeService.so
-
-
 # Widevine
 PRODUCT_COPY_FILES += \
     vendor/wingtech64/wt88047_64/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so
@@ -444,7 +437,6 @@ PRODUCT_PACKAGES += \
     libloc_ds_api \
     libtime_genoff \
     shutdownlistener \
-    TimeService \
     qcrilmsgtunnel \
     qcnvitems \
     qcrilhook \
