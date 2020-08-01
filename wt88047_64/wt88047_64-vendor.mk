@@ -282,9 +282,6 @@ PRODUCT_COPY_FILES += \
 
 # Perf - from crackling
 PRODUCT_COPY_FILES += \
-    vendor/wingtech64/wt88047_64/proprietary/vendor/etc/permissions/com.qualcomm.qti.Performance.xml:system/vendor/etc/permissions/com.qualcomm.qti.Performance.xml \
-    vendor/wingtech64/wt88047_64/proprietary/vendor/framework/QPerformance.jar:system/vendor/framework/QPerformance.jar \
-    vendor/wingtech64/wt88047_64/proprietary/vendor/lib64/libqti_performance.so:system/vendor/lib64/libqti_performance.so \
     vendor/wingtech64/wt88047_64/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
     vendor/wingtech64/wt88047_64/proprietary/vendor/lib64/libqti-perfd-client.so:system/vendor/lib64/libqti-perfd-client.so \
     vendor/wingtech64/wt88047_64/proprietary/vendor/lib/libqti-perfd-client.so:system/vendor/lib/libqti-perfd-client.so
