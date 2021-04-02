@@ -234,9 +234,6 @@ PRODUCT_COPY_FILES += \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libril-qc-radioconfig.so:vendor/lib/libril-qc-radioconfig.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libril-qcril-hook-oem.so:vendor/lib/libril-qcril-hook-oem.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/librpmb.so:vendor/lib/librpmb.so \
-    vendor/wingtech/wt88047/proprietary/vendor/lib/librs_adreno_sha1.so:vendor/lib/librs_adreno_sha1.so \
-    vendor/wingtech/wt88047/proprietary/vendor/lib/librs_adreno.so:vendor/lib/librs_adreno.so \
-    vendor/wingtech/wt88047/proprietary/vendor/lib/libRSDriver_adreno.so:vendor/lib/libRSDriver_adreno.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libsc-a3xx.so:vendor/lib/libsc-a3xx.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libscale.so:vendor/lib/libscale.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/lib-rtpcommon.so:vendor/lib/lib-rtpcommon.so \
